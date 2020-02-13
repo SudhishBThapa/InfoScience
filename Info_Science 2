@@ -1,0 +1,51 @@
+def setup():
+    size (600,600)
+    
+def draw():
+    x=0
+    
+def mouseClicked():
+    background(255)
+    stroke(0)
+    rect(100,100, 400, 400, 10)
+    stroke(255,0,0)
+    strokeWeight(10)
+
+    
+    
+    n=random(0,3.1)
+    print(n)
+    if 0<=n<0.5:
+        circle(300,300,50)
+    if 0.5<=n<1.0:
+        circle(200,200,50)
+        circle(400,400,50)
+    if 1.0<=n<1.5:
+        circle(200,200,50)
+        circle(400,400,50)
+        circle(300,300,50)
+    if 1.5<=n<2.0:
+        circle(200,200,50)
+        circle(400,200,50)
+        circle(200,400,50)
+        circle(400,400,50)
+    if 2.0<=n<2.5:
+        circle(200,200,50)
+        circle(400,200,50)
+        circle(200,400,50)
+        circle(400,400,50)
+        circle(300,300,50)
+    if 2.5<=n<3.1:
+        circle(200,200,50)
+        circle(400,200,50)
+        circle(200,400,50)
+        circle(400,400,50)
+        circle(200,300,50)
+        circle(400,300,50)
+        
+What did we do? - We learned on how to use the if condition and python functions to create a dice which works randomly and also a dice which
+is rigged. We also played a game where we create a rigged dice and accordingly tried to guess to which number the dice is rigged with. 
+What did you learn? - I learned to utilize the 'def' program to setup functions and used the if conditions and operations to setup how a number
+will be shown. Artistically, we used artistic functions to create a visual representation of a dice so that our arithmetic functions can cooperate
+with a visual of a dice and work accordingly.
+What questions do I have? - I don't have questions necessarily but I do require clarification on certain functions and syntax used in the program.
